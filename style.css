@@ -1,0 +1,9 @@
+
+
+.copy-to-clipboard-button {
+    cursor: pointer;
+}
+div.code-toolbar>.toolbar>.toolbar-item>a, div.code-toolbar>.toolbar>.toolbar-item>button, div.code-toolbar>.toolbar>.toolbar-item>span{
+    color: white;
+    border: 2px solid white;
+}
