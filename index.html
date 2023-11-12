@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="prism.css">
+    <link rel="stylesheet" href="./src/prism.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -67,6 +67,7 @@
                         the fields and methods of the existing class when you create a new class</li>
                 </ul>
             </h5>
+            <img src="typesofinheritance.jpg" alt="">
             <h2>Syntax of Java Inheritance</h2>
 
             <pre class="language-java line-numbers">
@@ -139,7 +140,7 @@
         <div id="multilevel">
             <h2>Multilevel Inheritance</h2>
             <h5>When there is a chain of inheritance, it is known as multilevel inheritance. As you can see
-                in the example given below, BabyDog class inherits the Dog class which again inherits the 
+                in the example given below, BabyDog class inherits the Dog class which again inherits the
                 Animal class, so there is a multilevel inheritance.
             </h5>
             <h2>Example of Multilevel Inheritance in Java</h2>
@@ -183,7 +184,7 @@
             <h2>Hierarchical Inheritance</h2>
             <h5>
                 When two or more classes inherits a single class, it is known as hierarchical inheritance.
-                In the example given below, Dog and Cat classes inherits the Animal class, so there is 
+                In the example given below, Dog and Cat classes inherits the Animal class, so there is
                 hierarchical inheritance.
             </h5>
             <h2>Example of Hierarchical Inheritance in Java</h2>
@@ -225,14 +226,16 @@
         <div id="overriding">
             <h2>Method Overriding in Java</h2>
             <h5>
-                If subclass (child class) has the same method as declared in the parent class, it is known as method overriding in Java.
+                If subclass (child class) has the same method as declared in the parent class, it is known as method
+                overriding in Java.
             </h5>
             <h2>
                 Usage of Java Method Overriding
             </h2>
             <h5>
                 <ul>
-                    <li>Method overriding is used to provide the specific implementation of a method which is already provided by its superclass.</li>
+                    <li>Method overriding is used to provide the specific implementation of a method which is already
+                        provided by its superclass.</li>
                     <li>Method overriding is used for runtime polymorphism</li>
                 </ul>
             </h5>
@@ -325,13 +328,13 @@
                 Dynamic Method Dispatch or Runtime polymorphism is a process in which a call to an overridden method is
                 resolved at runtime rather than compile-time.<br>
                 In this process, an overridden method is called through the reference variable of a superclass.
-                The determination of the method to be called is based on the object being referred to by the reference variable.
+                The determination of the method to be called is based on the object being referred to by the reference
+                variable.
             </h5>
             <h2>Upcasting</h2>
             <h5>
                 If the reference variable of Parent class refers to the object of Child class, it is known as upcasting.
             </h5>
-            <img src="" alt="upcasting">
             <h2>Example</h2>
             <pre class="language-java line-numbers">
     <code>class A{}  
@@ -412,11 +415,60 @@
                 <br> drawing triangle...
             </div>
         </div>
-        <div id="footer">
-            
-        </div>
     </div>
-    <script src="prism.js"></script>
+    <!-- ================Footer=================== -->
+    <footer id="footer">
+        <div class="con-ref">
+            <div>
+                <h2>Contributors</h2>
+                <div class="contributors">
+                    <div class="names">
+                        <ul style="list-style-type: none;">
+                            <li>Animesh Maiti</li>
+                            <li>Arpan Adhikary</li>
+                            <li>Rajarshi Bandyopadhay</li>
+                            <li>Soumyadeep Das</li>
+                            <li>Trinanjan Maiti</li>
+                        </ul>
+                    </div>
+                    <div class="rollNo">
+                        <ul style="list-style-type: none;">
+                            <li>2130006</li>
+                            <li>2130012</li>
+                            <li>2130062</li>
+                            <li>2130082</li>
+                            <li>2130089</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h2>References</h2>
+                <ul style="list-style-type: none;">
+                    <li><a
+                            href="https://www.javatpoint.com/java-tutorial">https://www.javatpoint.com/java-tutorial</a>
+                    </li>
+                    <li><a
+                            href="https://www.w3schools.com/html/">https://www.w3schools.com/html/</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="link">
+            <a class="github-btn" href="https://github.com/animeshmaiti/WT-assignment">
+                <div class="app-icon">
+                    <img src="icons8-github.svg" alt="github-link" style="width: 25px; height: 25px; filter: invert(100%) sepia(94%) saturate(24%) hue-rotate(333deg) brightness(107%) contrast(107%);">
+                </div>
+                <div>
+                    Github source code
+                </div>
+            </a>
+        </div>
+    </footer>
+    <div class="copyright-text">
+        <p>Copyright &copy; 2023, All Right Reserved <a href="https://github.com/animeshmaiti">Animesh</a></p>
+    </div>
+    <script src="./src/prism.js"></script>
     <script src="script.js"></script>
 </body>
 

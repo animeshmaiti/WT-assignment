@@ -13,6 +13,7 @@ nav {
     background-color: rgb(39, 39, 39);
     color: white;
     height: 60px;
+    margin-left: 160px;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: "Segoe UI",Arial,sans-serif;
@@ -104,13 +105,61 @@ div.code-toolbar>.toolbar>.toolbar-item>span {
     margin: 10px;
     border-radius: 5px;
 }
-#footer{
+footer{
     background-color: rgb(39, 39, 39);
     color: white;
-    text-align: center;
     padding: 10px;
-    margin-top: 0px 10px 0px 10px;
+    margin: 20px 0px 0px 160px;
 }
+.contributors{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-wrap: wrap;
+}
+.con-ref{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.link{
+    display: flex;
+    justify-content: center;
+}
+.github-btn{
+    background: #000;
+    border-radius: 8px;
+    color: #fff;
+    display: inline-flex;
+    margin-top: 16px;
+    padding: 20px 25px;
+}
+.app-icon{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+}
+.copyright-text{
+    margin-left: 160px;
+    display: flex;
+    justify-content: center;
+    background: #202020;
+    padding: 10px 0;
+}
+.copyright-text p {
+    margin: 0;
+    font-size: 14px;
+    color: #878787;
+}
+
+.copyright-text p a {
+    color: #ff5e14;
+}
+
+
 @media screen and (max-height: 450px) {
     .sidenav {
         padding-top: 15px;
